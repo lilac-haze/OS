@@ -30,8 +30,8 @@ int find_min(point* str, int n)
     float min_m = str[0].weight;
     int ind = 0;
     for (int i = 0; i < n; i++) {
-        if (str[ind].weight < min_m) {
-            min_m = str[ind].weight;
+        if (str[i].weight < min_m) {
+            min_m = str[i].weight;
             ind = i;
         }
     }
